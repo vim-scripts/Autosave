@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4927
+
+When Vim cashes, you can recover file contents from swap file, the auto backup files can save your life, too.
+
+But if you accidentally confirmed to quit an unnamed buffer, there's no regret pill.
+
+So this is the very simple plugin to automatically save empty buffer to backup path, you don't need to save new buffer mannually every time.
