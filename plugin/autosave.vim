@@ -33,6 +33,6 @@ monty
 
 endfunction
 
-if has("autocmd")
+if has("autocmd") && len(expand('%:t')) == 0
     autocmd BufEnter * call Autosave(s:auto_save_path, s:auto_save_suffix)
 endif
